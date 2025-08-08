@@ -32,17 +32,16 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
-            <span className="text-gradient animate-glow">MACHADO</span>
+          <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight">
+            <span className="text-gradient animate-glow">Detalhamento Premium</span>
             <br />
-            <span className="text-foreground">DETAILS</span>
+            <span className="text-foreground">para Carros e Motos em Campinas</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
-            Transformamos seu veículo em uma obra de arte. 
-            <span className="text-primary font-semibold"> Estética automotiva premium</span> 
-            para carros e motos em Campinas-SP.
+            Cuidado técnico, acabamento impecável e experiência personalizada 
+            <span className="text-primary font-semibold"> para quem valoriza verdadeiramente o veículo.</span>
           </p>
 
           {/* Features */}
