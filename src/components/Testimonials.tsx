@@ -7,7 +7,7 @@ const Testimonials = () => {
       role: "Proprietário BMW M3",
       avatar: "RS",
       rating: 5,
-      comment: "Excepcional! Minha BMW ficou como nova. O atendimento é personalizado e a atenção aos detalhes é impressionante. Recomendo para quem busca qualidade premium.",
+      comment: "Minha BMW ficou como nova. O atendimento é impecável! A atenção aos detalhes é impressionante. Recomendo para quem busca qualidade premium.",
       service: "Polimento Completo + Enceramento"
     },
     {

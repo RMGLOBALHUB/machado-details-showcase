@@ -119,7 +119,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary mt-1" />
                 <div>
                   <p className="text-muted-foreground">Av. Francisco de Angelis, 1417</p>
-                  <p className="text-sm text-muted-foreground">Vila Paraíso, Campinas - SP</p>
+                  <p className="text-sm text-muted-foreground">Vila Paraíso, Campinas - SP, 13043-370</p>
                 </div>
               </div>
               
@@ -136,18 +136,18 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
                 <a 
-                  href="mailto:contato@machadodetails.com" 
+                  href="mailto:machadodetails@outlook.com" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  contato@machadodetails.com
+                  machadodetails@outlook.com
                 </a>
               </div>
 
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-primary mt-1" />
                 <div>
-                  <p className="text-muted-foreground">Segunda a sexta: 08h às 18h</p>
-                  <p className="text-muted-foreground">Sábado: 08h às 12h</p>
+                  <p className="text-muted-foreground">Seg a Sex: 08:00–18:00</p>
+                  <p className="text-muted-foreground">Sábado: 08:00–12:00</p>
                   <p className="text-muted-foreground">Domingo: Fechado</p>
                 </div>
               </div>

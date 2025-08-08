@@ -67,7 +67,7 @@ const Hero = () => {
               className="btn-hero group"
             >
               <Phone className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-              Agendar pelo WhatsApp
+              Agendar via WhatsApp
             </Button>
             <Button 
               variant="outline"

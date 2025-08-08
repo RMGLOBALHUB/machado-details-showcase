@@ -35,14 +35,14 @@ const Services = () => {
     {
       title: "Selagem de Pintura",
       description: "Proteção da pintura com seladores premium para brilho e proteção duradoura.",
-      price: "A partir de R$ 200",
+      price: "Consulte valores",
       duration: "4h",
       features: ["Selador premium", "Proteção contra UV", "Brilho intenso", "Repelência à água"]
     },
     {
       title: "PPF - Paint Protection Film",
       description: "Aplicação de película de proteção transparente para máxima proteção da pintura.",
-      price: "A partir de R$ 1500",
+      price: "Consulte valores",
       duration: "12h",
       features: ["Película transparente", "Proteção contra riscos", "Auto-regeneração", "Garantia estendida"]
     }
@@ -52,14 +52,14 @@ const Services = () => {
     {
       title: "Grid Detail",
       description: "Serviço específico para motos esportivas, focado em cada detalhe das peças e componentes.",
-      price: "A partir de R$ 90",
+      price: "Consulte valores",
       duration: "2.5h",
       features: ["Limpeza detalhada", "Proteção de plásticos", "Brilho em cromados", "Cuidado especial com eletrônicos"]
     },
     {
       title: "Pole Position",
       description: "O mais completo serviço para motos, incluindo polimento, enceramento e proteção total.",
-      price: "A partir de R$ 180",
+      price: "Consulte valores",
       duration: "4h",
       features: ["Polimento completo", "Enceramento premium", "Proteção total", "Inspeção técnica"]
     }
@@ -76,12 +76,11 @@ const Services = () => {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            Serviços <span className="text-gradient">Premium</span>
+            Serviços <span className="text-gradient">Premium</span> para Carros e Motos
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Oferecemos uma gama completa de serviços especializados para carros e motos, 
-            sempre com o mais alto padrão de qualidade e atenção aos detalhes.
+            Oferecemos uma gama completa de serviços especializados para quem exige o mais alto padrão de qualidade e atenção aos detalhes.
           </p>
         </div>
 

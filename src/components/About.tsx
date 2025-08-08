@@ -40,7 +40,7 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              A <strong className="text-primary">Machado Details</strong> é especialista em estética automotiva e soluções personalizadas para seu veículo. 
+              A <strong className="text-primary">Machado Details</strong> é especialista em estética automotiva e soluções personalizadas para carros e motos. 
               Trabalhamos com produtos de performance profissional, técnicas modernas e processos seguros que garantem durabilidade, proteção e excelência nos resultados.
             </p>
 
@@ -56,14 +56,14 @@ const About = () => {
                 <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Tratamentos Especializados</h4>
-                  <p className="text-muted-foreground">Higienização interna, limpeza técnica de motor, rodas e caixas de roda, vidros e plásticos, polimento e micro pintura.</p>
+                  <p className="text-muted-foreground">Higienização interna, polimento, vitrificação e tratamentos especializados com técnicas avançadas.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Localização Estratégica</h4>
-                  <p className="text-muted-foreground">Atendemos na região de Campinas, entre os bairros Parque Prado e Swift — renovação, proteção e valorização.</p>
+                  <p className="text-muted-foreground">Localização estratégica em Campinas (Prado / Swift) — renovação, proteção e valorização do seu veículo.</p>
                 </div>
               </div>
             </div>
