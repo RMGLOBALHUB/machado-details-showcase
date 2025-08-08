@@ -5,32 +5,46 @@ import motoImage from '@/assets/moto-service.jpg';
 
 const Services = () => {
   const handleWhatsApp = (service: string) => {
-    const phoneNumber = "5519999999999";
+    const phoneNumber = "5519981969167";
     const message = `Olá! Gostaria de saber mais sobre o serviço: ${service}`;
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const carServices = [
     {
-      title: "Lavagem Detalhada Premium",
-      description: "Lavagem completa com produtos premium, incluindo shampoo técnico, cera de carnaúba e proteção UV.",
-      price: "A partir de R$ 80",
-      duration: "2h",
-      features: ["Shampoo técnico", "Cera de carnaúba", "Proteção UV", "Limpeza interna completa"]
-    },
-    {
-      title: "Enceramento e Polimento",
-      description: "Remoção de micro riscos, polimento técnico e aplicação de cera premium para brilho duradouro.",
-      price: "A partir de R$ 150",
-      duration: "4h",
-      features: ["Polimento técnico", "Remoção de riscos", "Cera premium", "Proteção duradoura"]
-    },
-    {
-      title: "Tratamento Interno Completo",
-      description: "Higienização profunda do interior, couro, plásticos e tecidos com produtos específicos.",
+      title: "Limpeza Técnica",
+      description: "Limpeza técnica completa com produtos profissionais, incluindo motor, rodas e caixas de roda.",
       price: "A partir de R$ 120",
       duration: "3h",
-      features: ["Higienização profunda", "Tratamento de couro", "Limpeza de tecidos", "Aromatização"]
+      features: ["Limpeza técnica de motor", "Rodas e caixas de roda", "Vidros e plásticos", "Higienização interna"]
+    },
+    {
+      title: "Revestimento Cerâmico",
+      description: "Aplicação de revestimento cerâmico profissional para proteção duradoura da pintura.",
+      price: "A partir de R$ 800",
+      duration: "8h",
+      features: ["Correção de pintura", "Aplicação cerâmica", "Proteção UV", "Durabilidade de 2 anos"]
+    },
+    {
+      title: "Correção de Pintura",
+      description: "Remoção de riscos, hologramas e imperfeições na pintura com técnicas avançadas.",
+      price: "A partir de R$ 400",
+      duration: "6h",
+      features: ["Remoção de riscos", "Polimento técnico", "Correção de hologramas", "Acabamento espelhado"]
+    },
+    {
+      title: "Selagem de Pintura",
+      description: "Proteção da pintura com seladores premium para brilho e proteção duradoura.",
+      price: "A partir de R$ 200",
+      duration: "4h",
+      features: ["Selador premium", "Proteção contra UV", "Brilho intenso", "Repelência à água"]
+    },
+    {
+      title: "PPF - Paint Protection Film",
+      description: "Aplicação de película de proteção transparente para máxima proteção da pintura.",
+      price: "A partir de R$ 1500",
+      duration: "12h",
+      features: ["Película transparente", "Proteção contra riscos", "Auto-regeneração", "Garantia estendida"]
     }
   ];
 

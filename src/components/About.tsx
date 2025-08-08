@@ -40,31 +40,30 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Na <strong className="text-primary">Machado Details</strong>, cada veículo é tratado como uma obra de arte única. 
-              Nossa paixão por automóveis e motos nos motiva a entregar sempre o melhor resultado, 
-              combinando técnicas avançadas com produtos premium.
+              A <strong className="text-primary">Machado Details</strong> é especialista em estética automotiva e soluções personalizadas para seu veículo. 
+              Trabalhamos com produtos de performance profissional, técnicas modernas e processos seguros que garantem durabilidade, proteção e excelência nos resultados.
             </p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Atendimento Individualizado</h4>
-                  <p className="text-muted-foreground">Cada cliente recebe atenção personalizada e serviços sob medida para suas necessidades.</p>
+                  <h4 className="font-semibold text-foreground mb-1">Lavagens Personalizadas</h4>
+                  <p className="text-muted-foreground">Oferecemos lavagens personalizadas, pacotes de tratamentos e serviços sob medida para cada tipo de veículo.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Produtos Premium</h4>
-                  <p className="text-muted-foreground">Utilizamos apenas os melhores produtos do mercado, garantindo resultados duradouros.</p>
+                  <h4 className="font-semibold text-foreground mb-1">Tratamentos Especializados</h4>
+                  <p className="text-muted-foreground">Higienização interna, limpeza técnica de motor, rodas e caixas de roda, vidros e plásticos, polimento e micro pintura.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Técnicas Avançadas</h4>
-                  <p className="text-muted-foreground">Constantemente atualizados com as mais modernas técnicas de estética automotiva.</p>
+                  <h4 className="font-semibold text-foreground mb-1">Localização Estratégica</h4>
+                  <p className="text-muted-foreground">Atendemos na região de Campinas, entre os bairros Parque Prado e Swift — renovação, proteção e valorização.</p>
                 </div>
               </div>
             </div>

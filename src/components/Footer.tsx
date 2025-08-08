@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Instagram, Facebook, MessageCircle, Clock } from '
 
 const Footer = () => {
   const handleWhatsApp = () => {
-    const phoneNumber = "5519999999999";
+    const phoneNumber = "5519981969167";
     const message = "Olá! Gostaria de agendar um serviço na Machado Details.";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
@@ -101,9 +101,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-bold text-foreground mb-6">Serviços</h4>
             <div className="space-y-3 text-muted-foreground">
-              <p>Lavagem Premium</p>
-              <p>Polimento e Enceramento</p>
-              <p>Tratamento Interno</p>
+              <p>Limpeza Técnica</p>
+              <p>Revestimento Cerâmico</p>
+              <p>Correção de Pintura</p>
+              <p>Selagem de Pintura</p>
+              <p>PPF - Paint Protection Film</p>
               <p>Grid Detail (Motos)</p>
               <p>Pole Position (Motos)</p>
             </div>
@@ -116,18 +118,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-1" />
                 <div>
-                  <p className="text-muted-foreground">Campinas - SP</p>
-                  <p className="text-sm text-muted-foreground">Localização estratégica</p>
+                  <p className="text-muted-foreground">Av. Francisco de Angelis, 1417</p>
+                  <p className="text-sm text-muted-foreground">Vila Paraíso, Campinas - SP</p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
                 <a 
-                  href="tel:+5519999999999" 
+                  href="tel:+5519981969167" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  (19) 99999-9999
+                  (19) 98196-9167
                 </a>
               </div>
               
@@ -144,9 +146,9 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-primary mt-1" />
                 <div>
-                  <p className="text-muted-foreground">Seg - Sex: 8h às 18h</p>
-                  <p className="text-muted-foreground">Sáb: 8h às 16h</p>
-                  <p className="text-muted-foreground">Dom: Fechado</p>
+                  <p className="text-muted-foreground">Segunda a sexta: 08h às 18h</p>
+                  <p className="text-muted-foreground">Sábado: 08h às 12h</p>
+                  <p className="text-muted-foreground">Domingo: Fechado</p>
                 </div>
               </div>
             </div>

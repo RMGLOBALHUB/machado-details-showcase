@@ -4,7 +4,7 @@ import heroImage from '@/assets/hero-car.jpg';
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    const phoneNumber = "5519999999999";
+    const phoneNumber = "5519981969167";
     const message = "Olá! Gostaria de agendar um serviço na Machado Details.";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
